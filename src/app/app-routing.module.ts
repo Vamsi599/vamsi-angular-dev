@@ -5,6 +5,10 @@ const routes: Routes = [
     {
         path: 'vsignup',
         loadChildren: () => import('./vsignup/vsignup.module').then(m => m.VsignupModule)
+    },
+    {
+        path: 'vlogin',
+        loadChildren: () => import('./vlogin/vlogin.module').then(m => m.VloginModule)
     }
 ];
 

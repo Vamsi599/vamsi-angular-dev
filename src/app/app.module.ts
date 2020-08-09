@@ -8,9 +8,10 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule , MatFormFieldModule, MatInputModule, BrowserAnimationsModule, AppRoutingModule ],
+  imports:      [ BrowserModule, FormsModule , MatFormFieldModule, MatInputModule, BrowserAnimationsModule, AppRoutingModule, FlexLayoutModule ],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
 })

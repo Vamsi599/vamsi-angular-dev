@@ -7,9 +7,12 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { VsignupRoutingModule } from './vsignup-routing.module';
 import { CommonModule } from '@angular/common';
+import { MatButtonModule } from '@angular/material/button';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
-  imports:      [ CommonModule, FormsModule , MatFormFieldModule, MatInputModule, VsignupRoutingModule ],
+  imports:      [ CommonModule, FormsModule , MatFormFieldModule, MatInputModule, VsignupRoutingModule, MatButtonModule, FlexLayoutModule, MatCardModule ],
   declarations: [ VsignupComponent ],
   bootstrap:    [ VsignupComponent ]
 })

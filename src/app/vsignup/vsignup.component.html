@@ -1,9 +1,35 @@
-<p>
-vsignup works!
-</p>
-<form>
-<mat-form-field>
-  <mat-label>Name</mat-label>
-  <input matInput placeholder="Ex ; vamsi" />
+
+
+<div fxLayout="row"    fxFlexAlign="stretch">
+<div  fxLayout="column" class="sideBackground">
+   <label class="logoTxt"> <span style="color:green;">VB</span>log</label>
+</div>
+
+<div fxLayout="column" >
+<mat-card   class="loginFrm">
+  <mat-card-title>Sign-Up here</mat-card-title>
+<form >
+
+<mat-form-field fxLayout="row">
+  <mat-label>User name</mat-label>
+  <input matInput placeholder="Ex : vamsi" />
 </mat-form-field>
+
+
+<mat-form-field fxLayout="row">
+  <mat-label>password</mat-label>
+  <input matInput />
+</mat-form-field>
+
+
+<mat-form-field fxLayout="row">
+  <mat-label>conform password</mat-label>
+  <input matInput />
+</mat-form-field>
+
+<button mat-raised-button color="primary" > Signup </button>
+
 </form>
+</mat-card>
+</div>
+</div>
