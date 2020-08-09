@@ -7,9 +7,10 @@ import { HelloComponent } from './hello.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule , MatFormFieldModule, MatInputModule, BrowserAnimationsModule ],
+  imports:      [ BrowserModule, FormsModule , MatFormFieldModule, MatInputModule, BrowserAnimationsModule, AppRoutingModule ],
   declarations: [ AppComponent, HelloComponent ],
   bootstrap:    [ AppComponent ]
 })
