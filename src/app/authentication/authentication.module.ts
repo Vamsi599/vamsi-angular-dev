@@ -8,7 +8,7 @@ import { AuthenticationComponent } from './authentication.component';
 
 @NgModule({
   declarations:[AuthenticationComponent],
-  imports:      [ BrowserModule, FormsModule , FlexLayoutModule, AuthenticationRoutingModule ],
+  imports:      [  FormsModule , FlexLayoutModule, AuthenticationRoutingModule ],
 
 })
 export class AuthenticationModule { }
